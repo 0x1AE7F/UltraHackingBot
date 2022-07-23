@@ -4,7 +4,7 @@ from timeit import default_timer as timer
 
 
 bot_prefix="!"
-TOKEN = "MTAwMDQyNTA4NDE4NTQ4NTM2NQ.GrJ09X.-Wl3JnFYyge-LArj3zJA1igAKn9Q3B15sRYUuc"
+TOKEN = "GoodLuckGettingMyToken"
 client = discord.Client()
 
 
