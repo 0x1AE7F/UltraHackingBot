@@ -1,7 +1,7 @@
 import discord
 import subprocess
 from timeit import default_timer as timer
-import cachemaster  # <-- This is going to be added soon to save on bandwidth and return already searched results faster
+import cachemaster
 import search_exploits
 
 
@@ -19,7 +19,7 @@ class colors:
 
 
 bot_prefix = "!"
-TOKEN = "GoodLuckGettingMyToken"
+TOKEN = "GoodLuckStealingMyToken hehe (got leaked a couple of times XD)"
 client = discord.Client()
 
 
@@ -78,7 +78,7 @@ async def on_message(message):
             return
         # Calls func to send result in embed
         await createEmbed(message=message, title="Traceroute", description=shell_output, failed=False, milliseconds=round(number=(timer() - start_time), ndigits=3))
-        print(f"{colors.OKGREEN}[PASS]: traceroute: {colors.ENDC}")
+        print(f"{colors.OKGREEN}[PASS]: traceroute{colors.ENDC}")
         return
 
     if message.content.startswith(bot_prefix+'cvelookup'):
