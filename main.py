@@ -19,7 +19,7 @@ class colors:
 
 
 bot_prefix = "!"
-TOKEN = "MTAwMDQyNTA4NDE4NTQ4NTM2NQ.GME4Bk.Mhfl-nLsIoRWDjAo9Qh5iqf3lIWbVbrhZ0Lmgs"
+TOKEN = "GoodLuckGettingMyToken"
 client = discord.Client()
 
 
