@@ -1,4 +1,3 @@
 discord.py
 requests
-pyping
-speedtest
+bs4
